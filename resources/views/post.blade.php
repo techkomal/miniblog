@@ -30,7 +30,7 @@
                                 <input type="submit" value="Submit" class="">
                             </form>
                             @if(session()->has('status'))
-                                <div class="">{{session('status')}}</div>
+                                <h5>{{session('status')}}</h5>
                             @endif
                         </div>
                     </div>
