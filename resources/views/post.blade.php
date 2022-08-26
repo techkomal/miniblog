@@ -29,6 +29,9 @@
                                 </div>
                                 <input type="submit" value="Submit" class="">
                             </form>
+                            @if(session()->has('status'))
+                                <div class="">{{session('status')}}</div>
+                            @endif
                         </div>
                     </div>
                 </div>
